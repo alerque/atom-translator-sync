@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle tranaslator-sync",
+        "command": "tranaslator-sync:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "tranaslator-sync",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "tranaslator-sync:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
